@@ -22,9 +22,13 @@ To delete a course, use the following command:
 Replace course_id with the integer representing the course index.
 
 
-made with love by ```alfarra```
 Editing a Course
 To edit a course, use the following command:
 
 ```node app update course_id```
 Replace course_id with the integer representing the course index.
+
+
+
+made with love by  <i>alfarra.js</i>
+
