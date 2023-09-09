@@ -1,3 +1,7 @@
+#CLI tool using Nodejs   and npm moudles (commanderjs& inquirerjs) 
+<hr>
+it's  doing CRUD logic , using the CMD 
+<hr>
 
 To install the required node_modules according to package.json, run the following command:
 
