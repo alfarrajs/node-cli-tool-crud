@@ -2,9 +2,8 @@ node-cli-tool-crud
 Installation
 To install the required node_modules according to package.json, run the following command:
 
-shell
-Copy
 npm install
+
 Adding a Course
 To add a new course, use the following command:
 
