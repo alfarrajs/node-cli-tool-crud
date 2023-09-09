@@ -6,17 +6,22 @@ To install the required node_modules according to package.json, run the followin
 Adding a Course
 To add a new course, use the following command:
 
+<br>
 
 ```node app add```
 You will be prompted to enter the title and price of the course.
 
 Viewing Courses
 To view the list of courses, use the following command:
+<br>
 
 ```node app list```
+<br>
+
 Deleting a Course
 To delete a course, use the following command:
 
+<br>
 
 ```node app delete course_id```
 Replace course_id with the integer representing the course index.
