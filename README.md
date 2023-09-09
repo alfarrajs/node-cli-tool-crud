@@ -1,19 +1,30 @@
-﻿# node-cli-tool-crud
+node-cli-tool-crud
+Installation
+To install the required node_modules according to package.json, run the following command:
+
+shell
+Copy
+npm install
+Adding a Course
+To add a new course, use the following command:
 
 
-First you need to 
-```npm i ``` to install the node_modules according to package.json
+```node app add```
+You will be prompted to enter the title and price of the course.
 
--------------- to add an course ------------
+Viewing Courses
+To view the list of courses, use the following command:
 
-```node app add``` , them you will add the title,price
+```node app list```
+Deleting a Course
+To delete a course, use the following command:
 
--------------to view courses --------------
-```node app list``` 
 
-------------to delete a course ------
+```node app delete course_id```
+Replace course_id with the integer representing the course index.
 
-```node app delete course_id```   (the course_id is integer for the course index)
+Editing a Course
+To edit a course, use the following command:
 
------------ to edit a course ----
-```node app update course_id``` (the course_id is integer for the course index)
+```node app update course_id```
+Replace course_id with the integer representing the course index.
